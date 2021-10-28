@@ -1,0 +1,134 @@
+body{
+    font-size: 20px;
+    background-color:white;
+    border:0;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/* setting the container margin */
+.container-margin-setter{
+    margin:auto;
+}
+
+/* end */
+
+/* class for rotating resume header */
+.rotateName{
+    color: #22577A;
+    font-family:'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 4rem;
+    display: inline-block;
+    margin-top:0;
+    margin-bottom: 0;
+    transition: transform 2s;
+  
+}
+
+.rotateName:hover{
+    transform:rotateY(360deg);
+}
+/* end */
+#nameAndContactInfo{
+    
+    text-align: center;
+}
+.decideFont{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #38A3A5;
+}
+.createBorder{
+    border-style: solid;
+    border-width:2px;
+}
+.h2Custom{
+    color: #38A3A5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+.subParas{
+    margin-top : 0;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 0.7em;
+    color: #99A799 ;
+}
+
+/* box shadow class */
+.details-section{
+    padding: 15px; /* JUST TO LOOK COOL */
+    border: 1px solid #eee;  /* JUST TO LOOK COOL */
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px;
+    transition: all .3s ease-in-out;
+    display: inline-block;
+}
+.details-section:hover{
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+     transform: translate3d(0px, -1px, 0px);
+}
+/* end */
+
+/* container class */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* flex-wrap: wrap;
+    align-items: flex-start; */
+}
+.container-left{
+    flex-basis: 50%;
+}
+.container-left-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-right-col{
+    display: flex;
+    flex-direction:column;
+}
+.container-right{
+    flex-basis:50%;
+}
+.container-education{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-skills{
+    display: flex;
+    flex-direction: column;
+}
+
+/* end */
+
+
+/* custom h3 font size */
+.h3Custom{
+    font-size: 0.7em;
+}
+/* end */
+
+/* class for line style */
+
+.line-style {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+/* end */
+
+/* container width */
+.container-main-width{
+    width:90%;
+    height: 90%;
+}
+/* end */
+
+.text-aling-center{
+    text-align: center;
+}
